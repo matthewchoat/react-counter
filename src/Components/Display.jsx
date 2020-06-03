@@ -3,6 +3,8 @@ import '../App.css';
 
 function Display(props) {
     const [val,setVal] = useState(0);
+    const [last,setLast] = useState(0);
+    
     useEffect(() => {
         document.title = `Glitches:  ${val}`;
       });
@@ -10,34 +12,23 @@ function Display(props) {
         <section className="display">
             <div id="calc">
             <h1>{val}</h1>
+            <h3>Memory: {last}</h3>
                 <div>
-                    <button id="One" onClick={() => setVal(val - 1)}>
-                    -
-                    </button>
-                    <button id="One" onClick={() => setVal(val + 1)}>
-                    +
-                    </button>
+                    <button id="One" onClick={() => setVal(val - 1)}>-</button>
+                    <button id="One" onClick={() => setVal(val + 1)}>+</button>
                 </div>
                 <div>
-
-                    <button id="Five" onClick={() => setVal(val - 5)}>
-                    -5
-                    </button>
-                    <button id="Five" onClick={() => setVal(val + 5)}>
-                    +5
-                    </button>
+                    <button id="Five" onClick={() => setVal(val - 5)}>-5</button>
+                    <button id="Five" onClick={() => setVal(val + 5)}>+5</button>
                 </div>
                 <div>
-                    <button id="Ten" onClick={() => setVal(val - 10)}>
-                    -10
-                    </button>
-                    <button id="Ten" onClick={() => setVal(val + 10)}>
-                    +10
-                    </button>
+                    <button id="Ten" onClick={() => setVal(val - 10)}>-10</button>
+                    <button id="Ten" onClick={() => setVal(val + 10)}>+10</button>
                 </div>
                 <div>
-                    <button id="reset" onClick={() => setVal(0)}>Reset</button></div>
+                    <button id="reset" onClick={() => (setLast(val), setVal(0))}>Reset</button>
                 </div>
+            </div>
             
         </section>
     )
