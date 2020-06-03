@@ -1,15 +1,17 @@
 import React from 'react';
 import Display from './Display';
-import ButtonPad from './ButtonPad';
 
 
-function Counter() {
+function Counter(props) {
+    console.log(props.val)
     return (
         <div className="counter">
             <Display/>
-            <ButtonPad/>
         </div>
     )
+    
 }
+
+
 
 export default Counter;
