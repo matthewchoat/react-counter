@@ -2,6 +2,29 @@
   text-align: center;
 }
 
+body, HTML {
+  background: url("poster.jpg") repeat;
+  height: 100%;
+  width: 100%;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+  font-size: calc(20px + 2vmin);
+  margin: 5px;
+  padding: 10px;
+  color: #2f752f;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h3 {
+  font-size: calc(6px + 2vmin);
+  margin: 5px;
+  padding: 2px;
+  color: #bdfcbb;
+  font-family: 'Orbitron', sans-serif;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,20 +35,161 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+#calc {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 4px #254425,
+  -2px -2px 4px #bdfcbb;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .App-header {
-  background-color: #282c34;
+  background: url("ClassicRain.gif") repeat-x, repeat-y;
   /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(9px + 2vmin);
   color: white;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+#One {
+  font-size: calc(27px + 2vmin);
+  text-align: center;
+  width: 45px;
+  height: 60px;
+  margin: 5px;
+  border-radius: 20px;
+  border-style: none;
+  color: white;
+  font-weight: 400;
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  box-shadow: 2px 2px 4px #254425,
+              -2px -2px 4px #bdfcbb;
+  font-family: 'Coda', cursive;
+}
+
+#One:active {
+  background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
+  font-weight: 400;
+  color: #2f752f;
+  box-shadow: 2px 2px 4px #304352,
+  -2px -2px 4px #d7d2cc;
+}
+
+#One:hover {
+  background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
+  font-weight: 400;
+  color: #bdfcbb;
+  box-shadow: 2px 2px 4px #304352,
+  -2px -2px 4px #d7d2cc;
+}
+
+#Five {
+  font-size: calc(5px + 2vmin);
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  border-radius: 80px;
+  border-style: none;
+  color: white;
+  font-weight: 400;
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  box-shadow: 2px 2px 4px #254425,
+              -2px -2px 4px #bdfcbb;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#Five:active {
+  background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
+  font-weight: 400;
+  color: #2f752f;
+  box-shadow: 2px 2px 4px #304352,
+  -2px -2px 4px #d7d2cc;
+}
+
+#Five:hover {
+  background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
+  font-weight: 400;
+  color: #bdfcbb;
+  box-shadow: 2px 2px 4px #304352,
+  -2px -2px 4px #d7d2cc;
+}
+
+#Ten {
+  font-size: calc(2.5px + 2vmin);
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  border-radius: 80px;
+  border-style: none;
+  color: white;
+  font-weight: 400;
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  box-shadow: 2px 2px 4px #254425,
+              -2px -2px 4px #bdfcbb;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#Ten:active {
+  background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
+  font-weight: 400;
+  color: #2f752f;
+  box-shadow: 2px 2px 4px #304352,
+  -2px -2px 4px #d7d2cc;
+}
+
+#Ten:hover {
+  background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
+  font-weight: 400;
+  color: #bdfcbb;
+  box-shadow: 2px 2px 4px #304352,
+  -2px -2px 4px #d7d2cc;
+}
+
+#reset {
+  font-size: calc(6.5px + 2vmin);
+  margin: 5px;
+  margin-bottom: 10px;
+  width: 90px;
+  height: 35px;
+  border-radius: 80px;
+  border-style: none;
+  color: white;
+  font-weight: 400;
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  box-shadow: 2px 2px 4px #254425,
+              -2px -2px 4px #bdfcbb;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#reset:active {
+  background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
+  font-weight: 400;
+  color: #2f752f;
+  box-shadow: 2px 2px 4px #304352,
+  -2px -2px 4px #d7d2cc;
+}
+
+#reset:hover {
+  background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
+  font-weight: 400;
+  color: #bdfcbb;
+  box-shadow: 2px 2px 4px #304352,
+  -2px -2px 4px #d7d2cc;
 }
 
 @keyframes App-logo-spin {
