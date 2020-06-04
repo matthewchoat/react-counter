@@ -6,23 +6,23 @@ body, HTML {
   background: url("poster.jpg") repeat;
   height: 100%;
   width: 100%;
-  font-family: 'Coda', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
 
 h1 {
-  font-size: calc(30px + 2vmin);
-  margin: 0px;
+  font-size: calc(20px + 2vmin);
+  margin: 5px;
   padding: 10px;
-  color: white;
-  font-family: 'Coda', cursive;
+  color: #2f752f;
+  font-family: 'Orbitron', sans-serif;
 }
 
 h3 {
-  font-size: calc(7px + 2vmin);
-  margin: 0px;
+  font-size: calc(6px + 2vmin);
+  margin: 5px;
   padding: 2px;
   color: #bdfcbb;
-  font-family: 'Coda', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .App-logo {
@@ -42,7 +42,7 @@ h3 {
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 22%;
+  width: 25%;
   border-radius: 35px;
   display: flex;
   flex-direction: column;
@@ -59,7 +59,7 @@ h3 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: 'Coda', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .App-link {
@@ -84,6 +84,7 @@ h3 {
 #One:active {
   background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
   font-weight: 400;
+  color: #2f752f;
   box-shadow: 2px 2px 4px #304352,
   -2px -2px 4px #d7d2cc;
 }
@@ -96,7 +97,7 @@ h3 {
 }
 
 #Five {
-  font-size: calc(10px + 2vmin);
+  font-size: calc(6px + 2vmin);
   width: 40px;
   height: 40px;
   margin: 5px;
@@ -107,12 +108,13 @@ h3 {
   background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
   box-shadow: 2px 2px 4px #254425,
               -2px -2px 4px #bdfcbb;
-  font-family: 'Coda', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
 
 #Five:active {
   background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
   font-weight: 400;
+  color: #2f752f;
   box-shadow: 2px 2px 4px #304352,
   -2px -2px 4px #d7d2cc;
 }
@@ -125,7 +127,7 @@ h3 {
 }
 
 #Ten {
-  font-size: calc(5px + 2vmin);
+  font-size: calc(4px + 2vmin);
   width: 40px;
   height: 40px;
   margin: 5px;
@@ -136,12 +138,13 @@ h3 {
   background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
   box-shadow: 2px 2px 4px #254425,
               -2px -2px 4px #bdfcbb;
-  font-family: 'Coda', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
 
 #Ten:active {
   background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
   font-weight: 400;
+  color: #2f752f;
   box-shadow: 2px 2px 4px #304352,
   -2px -2px 4px #d7d2cc;
 }
@@ -154,10 +157,10 @@ h3 {
 }
 
 #reset {
-  font-size: calc(10px + 2vmin);
+  font-size: calc(6.5px + 2vmin);
   margin: 5px;
   margin-bottom: 10px;
-  width: 80px;
+  width: 85px;
   height: 35px;
   border-radius: 80px;
   border-style: none;
@@ -166,12 +169,13 @@ h3 {
   background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
   box-shadow: 2px 2px 4px #254425,
               -2px -2px 4px #bdfcbb;
-  font-family: 'Coda', cursive;
+  font-family: 'Orbitron', sans-serif;
 }
 
 #reset:active {
   background-image: linear-gradient(to right, #9e9b98 0%, #141c22 100%);
   font-weight: 400;
+  color: #2f752f;
   box-shadow: 2px 2px 4px #304352,
   -2px -2px 4px #d7d2cc;
 }
