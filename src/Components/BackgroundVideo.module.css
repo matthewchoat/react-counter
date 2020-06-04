@@ -2,6 +2,7 @@
     position: relative;
     overflow: hidden;
     height: 150px;
+    width: 30%;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
